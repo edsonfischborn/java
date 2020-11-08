@@ -1,0 +1,136 @@
+/* Background */
+.bg-primary {
+    -fx-background-color:  #171E2E;
+}
+
+.bg-secundary{
+    -fx-background-color:#313742;
+}
+
+/* Inputs */
+.text-field{
+    -fx-background-color: #313742;
+    -fx-text-fill: rgb(180.0, 180.0, 180.0);
+}
+
+.text-area .content, .text-area{
+    -fx-background-color: #313742;
+    -fx-text-fill: rgb(180.0, 180.0, 180.0);
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.combo-box{
+    -fx-background-color: #313742;
+    -fx-control-inner-background:#313742;
+}
+
+.combo-box-base .text{
+    -fx-fill: rgb(180.0, 180.0, 180.0);
+}
+
+
+/* buttons */
+.dark-button,.success-button, .success-button    {
+    -fx-font-weight: bold;
+}
+
+.dark-button{
+    -fx-background-color:  #4B5663;
+}
+
+.success-button {
+    -fx-background-color:  #00FFA4;
+}
+
+.danger-button {
+    -fx-background-color:  #ff4444;
+    -fx-text-fill: #fff;
+}
+
+
+/* Listview */
+.dark-listview{
+    -fx-background-color: #171E2E;
+    -fx-text-fill: #fff;
+    -fx-control-inner-background:#4B5663;
+    -fx-font-size: 15;
+}
+
+
+/* Table */
+
+.table-view .column-header {
+   -fx-background-color:#313742; 
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+.table-row-cell {
+    -fx-cell-size: 35px;
+}
+
+.table-view .column-header .label{
+   -fx-text-fill: rgb(180.0, 180.0, 180.0);
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-control-inner-background:#4B5663;
+    -fx-border-color: #313742;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .label {
+    -fx-text-fill: #fff;
+}
+
+/* Scroll */
+.scroll-bar:horizontal ,
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color:#171E2E;
+    -fx-background-insets: 0, 0, 0;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal,
+.scroll-bar:vertical{
+    -fx-pref-height: 7;
+    -fx-pref-width: 7;
+}
+
+/* Dialog */
+.dialog{
+    -fx-background-color:  #171E2E;
+}
+.dialog > *.button-bar > *.container{
+    -fx-background-color:#313742;
+}
+.dialog > *.label.content{
+    -fx-font-size: 14px;
+    -fx-text-fill: #fff;
+}
+.dialog:header *.header-panel{
+    -fx-background-color:  #171E2E;
+}
+.dialog:header *.header-panel *.label{
+    -fx-font-size: 14px;
+    -fx-text-fill: #fff;
+     -fx-font-weight: bold;
+}
+
+.dialog .button { 
+    -fx-background-color: #4B5663; 
+    -fx-text-fill: white; 
+}
+
+.dialog .button:default {
+    -fx-background-color: #4B5663;
+}
