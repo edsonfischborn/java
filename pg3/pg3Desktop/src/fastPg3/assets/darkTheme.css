@@ -1,0 +1,44 @@
+* {
+    -fx-menuBgColor: #1f1f1f;
+    -fx-mainBgColor: #343434;
+    -fx-textLightColor: #c3c3c3;
+    -fx-textDarkColor: #fff;
+    -fx-inputBgColor: #676767;
+    -fx-selectedRowColor: rgba(187,	134, 252, 0.3);
+    -fx-detailCardColor: #343434;
+    -fx-modalFeaturedColor: #BB86FC;
+}
+
+.dialog .button:default {
+    -fx-background-color: -fx-indigoColor;
+}
+
+.table-row-cell {
+    -fx-background-color: rgba(0,0,0,0.2);
+}
+
+.table-row-cell:hover, .table-row-cell:hover .table-cell{
+    -fx-text-fill: -fx-indigoColor;
+}
+
+#tableFilterButton{
+    -fx-effect: dropshadow(three-pass-box, -fx-shadowColor, 5, 0, 5, 2);
+    -fx-background-color: -fx-indigoColor;
+}
+
+#tableFilterButton:hover{
+    -fx-effect: dropshadow(three-pass-box, -fx-indigoColor, 8, 0, 0, 0);
+}
+
+.pagination > .pagination-control > .control-box > .number-button:hover,
+.pagination > .pagination-control > .control-box > .bullet-button:hover,
+.pagination > .pagination-control > .control-box > .left-arrow-button:hover,
+.pagination > .pagination-control > .control-box > .right-arrow-button:hover {
+    -fx-background-color: -fx-indigoColor;
+}
+
+/* Selected toggle color */
+.pagination > .pagination-control > .control-box > .number-button:selected,
+.pagination > .pagination-control > .control-box > .bullet-button:selected{
+    -fx-background-color: -fx-indigoColor;
+}

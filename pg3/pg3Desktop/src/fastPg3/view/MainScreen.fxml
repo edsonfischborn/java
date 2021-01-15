@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAcPane" prefHeight="570.0" prefWidth="920.0" styleClass="mainBgColor" stylesheets="@../assets/mainScreen.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fastPg3.controller.MainScreenController">
+   <children>
+      <Pane fx:id="asideMenu" layoutX="23.0" layoutY="157.0" prefHeight="500.0" prefWidth="180.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox fx:id="menuIconView" alignment="CENTER" layoutY="10.0" prefHeight="59.0" prefWidth="180.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="39.0" layoutY="70.0" prefHeight="26.0" prefWidth="51.0" styleClass="textLight" text="FAST" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+            <VBox fx:id="menuItems" alignment="TOP_CENTER" layoutX="14.0" layoutY="150.0" prefHeight="230.0" prefWidth="150.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="89.0" layoutY="70.0" prefHeight="26.0" prefWidth="51.0" styleClass="pg3Color" text="PGIII" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <VBox alignment="CENTER" layoutY="510.0" prefHeight="60.0" prefWidth="180.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="510.0">
+         <children>
+            <Label fx:id="menuCopyrightText" alignment="CENTER" contentDisplay="CENTER" maxWidth="180.0" prefHeight="17.0" prefWidth="94.0" styleClass="textLight" text="FAST PGIII" textAlignment="CENTER" />
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="180.0">
+               <children>
+                  <VBox fx:id="menuGithubIconView" alignment="CENTER" prefHeight="40.0" prefWidth="0.0" />
+                  <Label alignment="CENTER" maxWidth="180.0" prefHeight="17.0" prefWidth="88.0" styleClass="textLight" text="/edsonfischborn" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Pane fx:id="headerInfo" layoutX="180.0" prefHeight="60.0" prefWidth="520.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutY="21.0" styleClass="pg3Color" text="Sistema">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="headerDateText" ellipsisString="" layoutX="70.0" layoutY="23.0" prefHeight="25.0" prefWidth="153.0" styleClass="textLight" text="Sabádo, 26 de Outubro">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <HBox alignment="CENTER_RIGHT" layoutX="607.0" layoutY="193.0" prefHeight="60.0" prefWidth="313.0" AnchorPane.leftAnchor="607.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox fx:id="headerNightBtnIconView" alignment="CENTER" prefHeight="60.0" prefWidth="25.0" />
+            <ToggleButton fx:id="headerNightBtn" mnemonicParsing="false" onAction="#headerNightBtnOnAction" prefHeight="30.0" prefWidth="57.0" text="Tema">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </ToggleButton>
+            <VBox fx:id="headerAccountIconView" alignment="CENTER" prefHeight="60.0" prefWidth="25.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <Label fx:id="headerAccountText" prefHeight="19.0" prefWidth="186.0" styleClass="textLight" text="edsonfischborn@gmail.com">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Pane fx:id="screenContainer" layoutX="188.0" layoutY="185.0" prefHeight="200.0" prefWidth="729.0" styleClass="mainBgColor" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="70.0" />
+   </children>
+</AnchorPane>

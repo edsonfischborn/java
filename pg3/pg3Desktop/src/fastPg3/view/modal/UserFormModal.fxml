@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAcPane" prefHeight="481.0" prefWidth="434.0" styleClass="mainBgColor" stylesheets="@../../assets/mainScreen.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fastPg3.controller.modal.UserFormModalController">
+   <children>
+      <VBox layoutX="47.0" layoutY="34.0" prefHeight="594.0" prefWidth="514.0" spacing="25.0" styleClass="card" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="19.0" prefWidth="182.0" spacing="1.0">
+               <children>
+                  <VBox fx:id="formMainTitleIconView" prefHeight="18.0" prefWidth="18.0" />
+                  <Label fx:id="formMainTitle" styleClass="modalTitleColor" text="Adicionar novo usuário">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="1.0" prefWidth="601.0" spacing="40.0">
+               <children>
+                  <VBox prefHeight="41.0" prefWidth="541.0">
+                     <children>
+                        <Label styleClass="textDark" text="Nome">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="formNameValue" prefHeight="5.0" prefWidth="168.0" promptText="Ex: Pedro da Silva" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="41.0" prefWidth="703.0" spacing="40.0">
+               <children>
+                  <VBox prefHeight="41.0" prefWidth="512.0">
+                     <children>
+                        <Label styleClass="textDark" text="CPF">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="formCpfValue" prefHeight="5.0" prefWidth="168.0" promptText="Ex: 98564535475" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="41.0" prefWidth="703.0" spacing="40.0">
+               <children>
+                  <VBox prefHeight="41.0" prefWidth="571.0">
+                     <children>
+                        <Label styleClass="textDark" text="Telefone">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="formPhoneValue" prefHeight="5.0" prefWidth="168.0" promptText="Ex: 51999765453" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="41.0" prefWidth="703.0" spacing="40.0">
+               <children>
+                  <VBox prefHeight="41.0" prefWidth="739.0">
+                     <children>
+                        <Label styleClass="textDark" text="E-mail">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="formEmailValue" prefHeight="5.0" prefWidth="168.0" promptText="Ex: pedrosilva@dominio.com" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="41.0" prefWidth="746.0" spacing="90.0">
+               <children>
+                  <VBox prefHeight="41.0" prefWidth="512.0">
+                     <children>
+                        <Label fx:id="formPasswordLabel" styleClass="textDark" text="Senha">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="formPasswordValue" prefHeight="26.0" prefWidth="183.0" promptText="Ex: minhaSenha123" />
+                     </children>
+                  </VBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="41.0" prefWidth="746.0" spacing="90.0">
+               <children>
+                  <Button fx:id="formButtonSubmit" mnemonicParsing="false" onAction="#formButtonSubmitOnAction" prefHeight="41.0" prefWidth="320.0" styleClass="modalSubmitButton" text="Adicionar" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

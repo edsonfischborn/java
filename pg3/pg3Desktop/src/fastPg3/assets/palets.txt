@@ -1,0 +1,30 @@
+background: #f9f7f7
+sections: #dbe2ef
+titulos: #3f72af
+header/footer: #112d4e
+
+
+by: https://colorhunt.co/palette/22272
+
+
+// people
+- nome
+- cpf
+- telefone??
+- email??
+- celular
+
+- rua
+- numero
+- complemento
+- cep
+- cidade 
+- estado
+
+// site user
+- senha
+- email*
+
+// destinatario
+- telefone*
+

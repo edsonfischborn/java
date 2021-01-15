@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAcPane" prefHeight="440.0" prefWidth="330.0" styleClass="menuBgColor" stylesheets="@../../assets/mainScreen.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fastPg3.controller.modal.DeliveryManInfoModalController">
+   <children>
+      <VBox layoutX="22.0" layoutY="71.0" prefHeight="399.0" prefWidth="286.0" spacing="11.0" styleClass="card" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="19.0" prefWidth="182.0" spacing="2.0">
+               <children>
+                  <VBox fx:id="formMainTitleIconView" prefHeight="18.0" prefWidth="18.0" />
+                  <Label styleClass="modalTitleColor" text="Entregador">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formMainTitleId" styleClass="textLight" text="#000">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox prefHeight="19.0" prefWidth="231.0">
+               <children>
+                  <Label styleClass="textDark" text="Id">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formIdValue" alignment="TOP_LEFT" prefHeight="11.0" prefWidth="231.0" styleClass="textLight" text="29 de setembro de 2020" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="19.0" prefWidth="231.0">
+               <children>
+                  <Label styleClass="textDark" text="Ativo">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formActiveValue" alignment="TOP_LEFT" prefHeight="11.0" prefWidth="231.0" styleClass="textLight" text="29 de setembro de 2020" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="25.0" prefWidth="231.0">
+               <children>
+                  <Label styleClass="textDark" text="Nome">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formNameValue" alignment="TOP_LEFT" prefHeight="15.0" prefWidth="231.0" styleClass="textLight" text="29 de setembro de 2020" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="21.0" prefWidth="231.0">
+               <children>
+                  <Label styleClass="textDark" text="E-mail">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formEmailValue" alignment="TOP_LEFT" prefHeight="15.0" prefWidth="302.0" styleClass="textLight" text="29 de setembro de 2020" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="21.0" prefWidth="231.0">
+               <children>
+                  <Label styleClass="textDark" text="Telefone">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formPhoneValue" alignment="TOP_LEFT" prefHeight="76.0" prefWidth="231.0" styleClass="textLight" text="29 de setembro de 2020" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="21.0" prefWidth="231.0">
+               <children>
+                  <Label styleClass="textDark" text="CPF">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formCpfValue" alignment="TOP_LEFT" prefHeight="76.0" prefWidth="231.0" styleClass="textLight" text="29 de setembro de 2020" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="49.0" prefWidth="231.0">
+               <children>
+                  <Label styleClass="textDark" text="Criado em">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formCreatedAtValue" alignment="TOP_LEFT" prefHeight="35.0" prefWidth="231.0" styleClass="textLight" text="29 de setembro de 2020" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="49.0" prefWidth="231.0">
+               <children>
+                  <Label styleClass="textDark" text="Atualizado em">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="formUpdatedAtValue" alignment="TOP_LEFT" prefHeight="35.0" prefWidth="231.0" styleClass="textLight" text="29 de setembro de 2020" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+* {
+    -fx-textWhiteColor: #eaeaea;
+    -fx-textDarkColor: #1a1a1a;
+    -fx-pg3Color: #3f72af;
+    -fx-dangerColor: #ff4444;
+}
+
+#mainAcPane{
+    -fx-background-color: transparent;
+}
+
+#loginForm{
+    -fx-background-color: #d9d9d9;
+    -fx-background-radius: 0 10 10 0;
+}
+
+#loginBg{
+    -fx-background-image: url("img/bg-login.jpg");
+    -fx-background-position: top;
+}
+
+.textWhite {
+    -fx-text-fill: -fx-textWhiteColor;
+}
+
+.textDark {
+    -fx-text-fill: -fx-textDarkColor;
+}
+
+.boxIcon {
+    -fx-fill: -fx-textWhiteColor;
+}
+
+.formIcon {
+    -fx-fill: -fx-pg3Color;
+    -fx-font-size: 2.3em;
+}
+
+.boxIcon{
+    -fx-font-size: 8em;
+}
+
+.inputIcon {
+    -fx-font-size: 1.5em;
+    -fx-fill: -fx-pg3Color;
+}
+
+#loginBtn, #closeBtn {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+#loginBtn{
+    -fx-background-color: -fx-pg3Color;
+}
+
+#loginBtn:hover {
+    -fx-background-color: #112d4e;
+    -fx-effect: dropshadow(three-pass-box, #112d4e, 10, 0, 0, 0);
+}
+
+#closeBtn{
+    -fx-background-color: -fx-dangerColor;
+}
+
+#closeBtn:hover{
+    -fx-background-color: #fc1313;
+    -fx-effect: dropshadow(three-pass-box, #fc1313, 10, 0, 0, 0);
+}
+
+.loginInput{
+    -fx-prompt-text-fill: #797979;
+    -fx-padding: 0px 10px 0px 30px;
+}
